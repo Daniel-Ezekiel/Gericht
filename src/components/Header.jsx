@@ -2,8 +2,8 @@ import Hero from "./Hero";
 
 const Header = () => {
   return (
-    <header className="flex flex-col gap-[6rem] min-h-[100vh] xl:gap-[0]">
-      <nav className="flex justify-between items-center h-[10vh] lg:justify-start lg:gap-[15rem] xl:w-[128rem] xl:mx-auto">
+    <header className="flex flex-col gap-[6rem] min-h-[100vh] xl:gap-[0] xl:px-[3rem] xl:max-w-[168rem] xl:mx-auto">
+      <nav className="flex justify-between items-center h-[10vh] xl:justify-start xl:gap-[15rem]">
         <a
           href="/"
           className="text-[3rem] uppercase font-bold font-serif lg:w-[25%]"
@@ -11,7 +11,7 @@ const Header = () => {
           Gerícht
         </a>
 
-        <div className="hidden lg:flex lg:justify-between lg:w-[70%] lg:gap-[2.5rem]">
+        <div className="hidden xl:flex xl:justify-between xl:w-[70%] xl:gap-[2.5rem]">
           <ul className="navbar--links lg:flex lg:gap-[2.5rem]">
             <li>
               <a href="/">Home</a>
@@ -41,7 +41,7 @@ const Header = () => {
           </div>
         </div>
 
-        <button className="h-[2.2rem] w-[3rem] relative lg:hidden">
+        <button className="h-[2.2rem] w-[3rem] relative xl:hidden">
           <div className="border-rounded-[4px] bg-primary h-[0.3rem] w-full before:content-[''] before:absolute before:top-0 before:left-0 before:h-[0.3rem] before:w-full before:bg-primary before:mt-[-1px] after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[0.3rem] after:w-full after:bg-primary after:mt-[1px]"></div>
         </button>
       </nav>
