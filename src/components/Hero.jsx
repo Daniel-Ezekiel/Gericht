@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className="font-bold text-[6rem] leading-[1.2] text-primary capitalize xl:text-[9rem]">
           The key to <br /> fine dining
         </h1>
-        <p className="mt-5 max-w-[42rem] font-sans text-[1.5rem] text-gray xl:w-full  xl:text-base">
+        <p className="mt-5 max-w-[42rem] font-sans text-[1.5rem] text-gray xl:w-full xl:text-base">
           Sit tellus lobortis sed senectus vivamus molestie. Condimentum
           volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
           aliquam amet tellus

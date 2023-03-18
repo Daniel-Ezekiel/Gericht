@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="flex justify-between items-center h-[10vh] lg:justify-start lg:gap-[15rem] xl:w-[128rem] xl:mx-auto">
         <a
           href="/"
-          className="text-[3rem] uppercase font-bold font-serif lg:w-[30%]"
+          className="text-[3rem] uppercase font-bold font-serif lg:w-[25%]"
         >
           Gerícht
         </a>
@@ -30,20 +30,14 @@ const Header = () => {
             </li>
           </ul>
 
-          <div>
-            <a
-              href="/"
-              className="px-[3rem] border-r-[0.2rem] border-white"
-            >
-              Log In / Registration
-            </a>
+          <div className="flex">
+            <div className="px-[3rem] border-r-[0.2rem] border-gray">
+              <a href="/">Log In / Registration</a>
+            </div>
 
-            <a
-              href="/"
-              className="px-[3rem]"
-            >
-              Book Table
-            </a>
+            <div className="px-[3rem]">
+              <a href="/">Book Table</a>
+            </div>
           </div>
         </div>
 
