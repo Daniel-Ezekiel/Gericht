@@ -2,14 +2,17 @@ import Hero from "./Hero";
 
 const Header = () => {
   return (
-    <header className="flex flex-col gap-[3rem]">
-      <nav className="flex justify-between items-center">
-        <a href="/" className="text-[3rem] uppercase font-bold font-serif">
+    <header className="flex flex-col gap-[6rem] min-h-[100vh] xl:gap-[0]">
+      <nav className="flex justify-between items-center h-[10vh] lg:justify-start lg:gap-[15rem] xl:w-[128rem] xl:mx-auto">
+        <a
+          href="/"
+          className="text-[3rem] uppercase font-bold font-serif lg:w-[30%]"
+        >
           Gerícht
         </a>
 
-        <div className="hidden">
-          <ul className="navbar--links">
+        <div className="hidden lg:flex lg:justify-between lg:w-[70%] lg:gap-[2.5rem]">
+          <ul className="navbar--links lg:flex lg:gap-[2.5rem]">
             <li>
               <a href="/">Home</a>
             </li>
@@ -27,14 +30,24 @@ const Header = () => {
             </li>
           </ul>
 
-          <div className="navbar--action-links">
-            <a href="/">Log In / Registration</a>
+          <div>
+            <a
+              href="/"
+              className="px-[3rem] border-r-[0.2rem] border-white"
+            >
+              Log In / Registration
+            </a>
 
-            <a href="/">Book Table</a>
+            <a
+              href="/"
+              className="px-[3rem]"
+            >
+              Book Table
+            </a>
           </div>
         </div>
 
-        <button className="h-[2.2rem] w-[3rem] relative">
+        <button className="h-[2.2rem] w-[3rem] relative lg:hidden">
           <div className="border-rounded-[4px] bg-primary h-[0.3rem] w-full before:content-[''] before:absolute before:top-0 before:left-0 before:h-[0.3rem] before:w-full before:bg-primary before:mt-[-1px] after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[0.3rem] after:w-full after:bg-primary after:mt-[1px]"></div>
         </button>
       </nav>
