@@ -5,10 +5,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App p-[1.5rem]">
+    <div className='App p-[1.5rem]'>
       <Header />
-      {/* <Main />
-      <Footer /> */}
+      <Main />
+      {/* <Footer /> */}
     </div>
   );
 }
