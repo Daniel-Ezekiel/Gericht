@@ -17,7 +17,10 @@ module.exports = {
       base: "1.6rem",
       xl: "2.3rem",
     },
-    extend: {},
+    extend: {
+      // "type-1": "url('/src/assets/section1-bg.png')",
+    },
   },
   plugins: [],
 };
+

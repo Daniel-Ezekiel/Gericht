@@ -2,7 +2,7 @@ import Hero from "./Hero";
 
 const Header = () => {
   return (
-    <header className='flex flex-col gap-[6rem] min-h-[100vh] xl:gap-[0] xl:px-[3rem] xl:max-w-[168rem] xl:mx-auto'>
+    <header className='flex flex-col gap-[6rem] min-h-[100vh] px-[2rem] xl:gap-[0] xl:px-[3rem] xl:max-w-[168rem] xl:mx-auto'>
       <nav className='flex justify-between items-center h-[10vh] xl:justify-start xl:gap-[15rem]'>
         <a
           href='/'

@@ -1,8 +1,8 @@
 const Button = (props) => {
   return (
-    <button className="mt-8 w-[13rem] h-[4rem] bg-primary text-base font-bold text-[#000] hover:bg-[transparent]  hover:text-primary border">
+    <a className='block font-serif py-[1.2rem] w-[13rem] bg-primary text-center text-base font-bold text-[#000] hover:bg-[transparent] hover:text-primary border'>
       {props.text}
-    </button>
+    </a>
   );
 };
 

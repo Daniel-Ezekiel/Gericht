@@ -1,5 +1,11 @@
+import About from "./About";
+
 const Main = () => {
-  return <main>This is the Main</main>;
+  return (
+    <main>
+      <About />
+    </main>
+  );
 };
 
 export default Main;
